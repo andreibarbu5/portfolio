@@ -20,7 +20,8 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: "Mark Pro Heavy";
+  font-family: "Roboto";
+  font-weight: 900;
 }
 
 @media (prefers-color-scheme: dark) {
