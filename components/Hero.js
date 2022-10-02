@@ -13,7 +13,7 @@ const Hero = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="relative overflow-hidden  ">
-      <div className="absolute left-0 top-[5.8rem] sm:top-[5rem] bg-[url('../photos/firsthand.webp')]  w-[10rem] h-[10rem] sm:w-[12rem] sm:h-[12rem] bg-left text-white bg-contain bg-no-repeat md:w-[14rem] md:h-[14rem] md:top-[4rem] lg:w-[17rem] lg:h-[17rem] lg:top-[2rem] "></div>
+      <div className="absolute left-0 top-[6rem] sm:top-[5rem] bg-[url('../photos/firsthand.webp')]  w-[10rem] h-[10rem] sm:w-[12rem] sm:h-[12rem] bg-left text-white bg-contain bg-no-repeat md:w-[14rem] md:h-[14rem] md:top-[4rem] lg:w-[17rem] lg:h-[17rem] lg:top-[2rem] "></div>
 
       <div className="flex flex-col w-full  mx-auto  ">
         {/* Header */}
@@ -28,7 +28,7 @@ const Hero = () => {
         {/* Hero Content */}
         <div
           className="header__content  
-          mt-[200px] mx-[1.8rem] md:mx-[3rem] lg:mt-[200px] "
+          mt-[200px] mx-[1.8rem] vs:mx-[3rem] sm:mx-[4rem]  lg:mt-[200px] "
         >
           <div className="w-full lg:max-w-[1011px] lg:mx-auto ">
             <div className="text-white text-[42px] sm:text-[50px] leading-[43px] sm:leading-[55px] md:text-[71px] md:leading-[71px] max-w-[27rem] sm:max-w-[33rem] md:max-w-[39rem] lg:text-[84px] lg:leading-[84px]   lg:max-w-[44rem] ">
