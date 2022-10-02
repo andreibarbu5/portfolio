@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import styles from "../styles/Home.module.css";
@@ -11,7 +12,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
           rel="stylesheet"
         />
         <title>Create Next App</title>
@@ -20,11 +21,13 @@ export default function Home() {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* Hero */}
-      <Hero />
-      {/* Projects */}
-      <Projects />
-      {/* Projects */}
+      <div className="bg-[#10101a] ">
+        {/* Hero */}
+        <Hero />
+        {/* Projects */}
+        <Projects />
+        {/* Projects */}
+      </div>
     </div>
   );
 }
