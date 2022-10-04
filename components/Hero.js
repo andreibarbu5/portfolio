@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="flex flex-col w-full  mx-auto  ">
         {/* Header */}
         <div className="w-full flex justify-center ">
-          <div className="fixed flex items-center justify-center sm:justify-between sm:px-8 bg-[#22222e]  border-[1px] border-[#3d3a3a] text-[#ffffff] rounded-[1rem] h-[3.4rem] md:h-[4rem] md:max-w-[28rem] z-10 opacity-95 mt-10   w-full  max-w-[19.6rem] sm:max-w-[24rem] lg:text-[20px] lg:h-[4.6rem] lg:max-w-[35rem] lg:px-[4rem] sm:rounded-[2rem]  ">
+          <div className="fixed flex items-center justify-center sm:justify-between sm:px-8 bg-[#22222e]  border-[1px] border-[#3d3a3a] text-[#ffffff] rounded-[1rem] h-[3.4rem] md:h-[4rem] md:max-w-[28rem] z-10 opacity-95 mt-10   w-full  max-w-[19.6rem] sm:max-w-[24rem] lg:text-[20px] lg:h-[4rem] lg:max-w-[35rem] lg:px-[4rem] sm:rounded-[2rem]  ">
             <h1 className="mr-6">📁 Projects</h1>
             <h1 className="mr-6">💼 CV</h1>
             <h1>📞 Contact</h1>
@@ -57,11 +57,11 @@ const Hero = () => {
               {toggle ? (
                 <div className="relative">
                   <BiToggleRight className="w-[4rem] h-[4rem] text-[#ffff] lg:w-[5rem] lg:h-[5rem]" />
-                  <BsSun className="absolute w-[0.95rem] h-[0.95rem] text-[#ffff] top-6 left-4 lg:w-[1.1rem] lg:h-[1.1rem] lg:top-[1.85rem] lg:left-[1.25rem]" />
+                  <BsSun className="absolute w-[0.95rem] h-[0.95rem] text-[#ffff] top-6 left-4 lg:w-[1.1rem] lg:h-[1.1rem] lg:top-[1.92rem] lg:left-[1.25rem]" />
                 </div>
               ) : (
                 <div className="relative">
-                  <BsMoon className="w-[0.8rem] h-[0.8rem] text-[#ffff] absolute top-6 left-[2.25rem] lg:w-[1.1rem] lg:h-[1.1rem] lg:top-[1.85rem] lg:left-[2.75rem]" />
+                  <BsMoon className="w-[0.8rem] h-[0.8rem] text-[#ffff] absolute top-6 left-[2.25rem] lg:w-[1.1rem] lg:h-[1.1rem] lg:top-[1.9rem] lg:left-[2.75rem]" />
                   <BiToggleLeft className="w-[4rem] h-[4rem] text-[#ffff] lg:w-[5rem] lg:h-[5rem]" />
                 </div>
               )}
