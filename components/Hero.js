@@ -13,12 +13,12 @@ const Hero = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="relative overflow-hidden  ">
-      <div className="absolute left-0 top-[6rem] sm:top-[5rem] bg-[url('../photos/firsthand.webp')]  w-[10rem] h-[10rem] sm:w-[12rem] sm:h-[12rem] bg-left text-white bg-contain bg-no-repeat md:w-[14rem] md:h-[14rem] md:top-[4rem] lg:w-[17rem] lg:h-[17rem] lg:top-[2rem] "></div>
+      <div className=" absolute left-0 top-[6rem] sm:top-[5rem] bg-[url('../photos/firsthand.webp')]  w-[10rem] h-[10rem] sm:w-[12rem] sm:h-[12rem] bg-left text-white bg-contain bg-no-repeat md:w-[14rem] md:h-[14rem] md:top-[4rem] lg:w-[17rem] lg:h-[17rem] lg:top-[2rem] "></div>
 
       <div className="flex flex-col w-full  mx-auto  ">
         {/* Header */}
         <div className="w-full flex justify-center ">
-          <div className="fixed flex items-center justify-center sm:justify-between sm:px-8 bg-[#22222e]  border-[1px] border-[#3d3a3a] text-[#ffffff] rounded-[1rem] h-[3.4rem] md:h-[4rem] md:max-w-[28rem] z-10 opacity-95 mt-10   w-full  max-w-[19.6rem] sm:max-w-[24rem] lg:text-[20px] lg:h-[4rem] lg:max-w-[35rem] lg:px-[4rem] sm:rounded-[2rem]  ">
+          <div className="fixed flex items-center justify-center sm:justify-between sm:px-8 bg-[#22222e]  border-[1px] border-[#656565] text-[#ffffff] rounded-[1rem] h-[3.4rem] md:h-[4rem] md:max-w-[28rem] z-10 opacity-95 mt-10   w-full  max-w-[19.6rem] sm:max-w-[24rem] lg:text-[20px] lg:h-[4rem] lg:max-w-[35rem] lg:px-[4rem] sm:rounded-[2rem]  ">
             <h1 className="mr-6">📁 Projects</h1>
             <h1 className="mr-6">💼 CV</h1>
             <h1>📞 Contact</h1>

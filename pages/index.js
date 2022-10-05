@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
+import Reviews from "../components/Reviews";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -21,12 +22,13 @@ export default function Home() {
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-[#10101a] ">
+      <div className="bg-[#10101a]  ">
         {/* Hero */}
         <Hero />
+        {/* Review */}
+        <Reviews />
         {/* Projects */}
         <Projects />
-        {/* Projects */}
       </div>
     </div>
   );
