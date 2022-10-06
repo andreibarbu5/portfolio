@@ -3,8 +3,9 @@ import Image from "next/image";
 
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
-import Reviews from "../components/Reviews";
-import styles from "../styles/Home.module.css";
+import Technologies from "../components/Technologies";
+import ContactMe from "../components/ContactMe";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -25,10 +26,14 @@ export default function Home() {
       <div className="bg-[#10101a]  ">
         {/* Hero */}
         <Hero />
-        {/* Review */}
-        <Reviews />
+        {/* Technologies */}
+        <Technologies />
         {/* Projects */}
         <Projects />
+        {/* ContactMe */}
+        <ContactMe />
+        {/* Footer */}
+        <Footer />
       </div>
     </div>
   );

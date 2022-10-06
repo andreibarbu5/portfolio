@@ -12,17 +12,15 @@ import movie2 from "../assets/movie2.jpeg";
 
 const Projects = () => {
   return (
-    <div className="text-white mx-[1.8rem] mt-16 sm:mt-[6rem] bg-[]">
+    <div className="text-white mx-[1.8rem] mt-[2rem] sm:mt-[6rem] ">
       {/* Projects Intro */}
       <div className="">
         <div className="flex items-center text-[27px] ">
-          <h1 id="work" className="text-[32px] mr-2 ">
-            My Projects
-          </h1>
+          <h1 className="text-[32px] mr-2 ">My Projects</h1>
           <span>💼</span>
         </div>
 
-        <p className="text-[#d2cfcf] mt-4 ">
+        <p className="text-[#d2cfcf] mt-4 text-[19px] ">
           Hello stranger! 👋, my name is Andrei and I am a passionate Web
           Developer.
         </p>
@@ -30,7 +28,7 @@ const Projects = () => {
       {/* Project Cards */}
       <div className="w-full mx-auto px-[1.5rem] ">
         {/* First Card */}
-        <div className="relative bg h-[32rem]  bg-[#161625] mt-20 rounded-[3rem] px-[1.5rem] text-center">
+        <div className="relative bg h-[33.5rem]  bg-[#161625] mt-20 rounded-[3rem] px-[1.5rem] text-center">
           <div className="absolute -right-6 -top-6 h-32 w-32">
             <Image src={number1} alt="" className=" " />
           </div>
@@ -41,20 +39,26 @@ const Projects = () => {
               className="w-[17rem] h-[18rem]  mx-auto rounded-[3rem]"
             />
           </div>
-          <p className="projects  text-[20px] mt-4 w-40   mx-auto">
+          <p className="  text-[20px] mt-4 w-40   mx-auto text-[#c12a7b]">
             Full Stack Social Media App
           </p>
 
-          <p className="cursor-pointer mt-3   border rounded-[2rem] w-40 mx-auto p-1 text-[#828080] border-[#828080]">
+          <p className="flex justify-center items-center  cursor-pointer mt-3   border rounded-[2rem] w-32 h-[2.3rem] mx-auto p-1 text-[#868484] border-[#4e4d4d]">
             Live App
           </p>
 
-          <div className="flex justify-center mt-3 ">
-            <div className="w-8 mr-8 cursor-pointer">
-              <Image src={github} alt="" />
+          <div className="flex justify-between mx-4 mt-4 ">
+            <div className="flex items-center justify-between   relative mr-2 border border-[#4e4d4d] rounded-[2rem] w-28 h-10 px-[1rem]">
+              <p className="cursor-pointer    text-[#868484] ">Code</p>
+              <div className=" w-6 h-6  cursor-pointer ">
+                <Image src={github} alt="" />
+              </div>
             </div>
-            <div className="w-8 cursor-pointer">
-              <Image src={youtube} alt="" />
+            <div className="flex items-center justify-between   relative  border border-[#4e4d4d] rounded-[2rem] w-28 h-10 px-[1rem]">
+              <p className="cursor-pointer    text-[#868484]  ">Video </p>
+              <div className=" w-6 h-6  cursor-pointer ">
+                <Image src={youtube} alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -70,18 +74,18 @@ const Projects = () => {
               className="   mx-auto rounded-[3rem]"
             />
           </div>
-          <p className="projects  text-[20px] mt-4 w-40   mx-auto">
+          <p className="  text-[20px] mt-4 w-40   mx-auto text-[#7b8cee] ">
             Mern Stack Authentication
           </p>
           <div className="flex justify-between mx-4 mt-4">
-            <div className="flex items-center justify-between   relative mr-2 border border-[#828080] rounded-[2rem] w-28 h-12 px-[1rem]">
-              <p className="cursor-pointer    text-[#828080] ">Code</p>
+            <div className="flex items-center justify-between   relative mr-2 border border-[#4e4d4d] rounded-[2rem] w-28 h-12 px-[1rem]">
+              <p className="cursor-pointer    text-[#868484] ">Code</p>
               <div className=" w-6 h-6  cursor-pointer ">
                 <Image src={github} alt="" />
               </div>
             </div>
-            <div className="flex items-center justify-between   relative  border border-[#828080] rounded-[2rem] w-28 h-12 px-[1rem]">
-              <p className="cursor-pointer    text-[#828080] ">Video</p>
+            <div className="flex items-center justify-between   relative  border border-[#4e4d4d] rounded-[2rem] w-28 h-12 px-[1rem]">
+              <p className="cursor-pointer    text-[#868484] ">Video</p>
               <div className=" w-6 h-6  cursor-pointer ">
                 <Image src={youtube} alt="" />
               </div>
@@ -101,19 +105,19 @@ const Projects = () => {
             />
           </div>
 
-          <p className="projects  text-[20px] mt-4 w-40   mx-auto">
+          <p className="  text-[20px] mt-4 w-40   mx-auto text-[#cd5f21]">
             Movies App TMDB Api
           </p>
 
           <div className="flex justify-between mx-4 mt-4">
-            <div className="flex items-center justify-between   relative mr-2 border border-[#828080] rounded-[2rem] w-28 h-12 px-[1rem]">
-              <p className="cursor-pointer    text-[#828080] ">Code</p>
+            <div className="flex items-center justify-between   relative mr-2 border border-[#4e4d4d] rounded-[2rem] w-28 h-12 px-[1rem]">
+              <p className="cursor-pointer    text-[#4e4d4d] ">Code</p>
               <div className=" w-6 h-6  cursor-pointer ">
                 <Image src={github} alt="" />
               </div>
             </div>
-            <div className="flex items-center justify-between   relative  border border-[#828080] rounded-[2rem] w-28 h-12 px-[1rem]">
-              <p className="cursor-pointer    text-[#828080] ">Video</p>
+            <div className="flex items-center justify-between   relative  border border-[#4e4d4d] rounded-[2rem] w-28 h-12 px-[1rem]">
+              <p className="cursor-pointer    text-[#4e4d4d] ">Video</p>
               <div className=" w-6 h-6  cursor-pointer ">
                 <Image src={youtube} alt="" />
               </div>

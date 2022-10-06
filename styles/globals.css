@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.aft:after {
+  content: "";
+  position: absolute;
+  background-color: aliceblue;
+  height: 1px;
+  width: 40px;
+  margin-top: 4px;
+  margin-left: 1px;
+  transition: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.aft:hover:after {
+  width: 100%;
+}
+
 .slide-body {
   display: grid;
   overflow: hidden;
@@ -23,18 +39,18 @@
     transform: translateX(0);
   }
   40% {
-    transform: translateX(calc(-250px * 4.7));
+    transform: translateX(calc(-250px * 3.1));
   }
 }
 @keyframes scroll1 {
   0% {
-    transform: translateX(calc(-250px * 4.7));
+    transform: translateX(calc(-250px * 3.1));
   }
   40% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 4.7));
+    transform: translateX(calc(-250px * 3.1));
   }
 }
 
@@ -71,7 +87,8 @@
   }
 }
 .projects,
-#work {
+#work,
+#tech {
   background: linear-gradient(90deg, #b3f1f0, #fecfdf);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
